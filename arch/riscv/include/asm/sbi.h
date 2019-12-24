@@ -42,6 +42,7 @@
 #define SBI_CALL_0(which) SBI_CALL(which, 0, 0, 0)
 #define SBI_CALL_1(which, arg0) SBI_CALL(which, arg0, 0, 0)
 #define SBI_CALL_2(which, arg0, arg1) SBI_CALL(which, arg0, arg1, 0)
+#define SBI_CALL_3(which, arg0, arg1, arg2) SBI_CALL(which, arg0, arg1, arg2)
 
 static inline void sbi_console_putchar(int ch)
 {
